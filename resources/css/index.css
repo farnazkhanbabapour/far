@@ -1,0 +1,76 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-attachment: fixed;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.card {
+    height: 369.011px;
+    width: 290px;
+    padding: 30px 20px 20px 20px;
+    background-color: #7ecbc0;
+    margin-right: 50px;
+    /* margin-top: 30px; */
+}
+.primary {
+    text-align: center;
+}
+
+.farnaz {
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+    width:195px;
+    height: 195px;
+    border-radius: 50%;
+}
+.web{
+    font-family: 'Quicksand';
+}
+.social{
+    float: left;
+}
+.social li {
+    display: inline-block;
+    margin: 5px 12px;
+    color: black;
+}
+.fab{
+    font-size: 19px !important;
+
+}
+.widget{
+    width: 290px;
+    height: 129.45px;
+    display: block;
+    background-color: white;
+    padding: 20px;
+}
+.btn {
+    width: 193.114px;
+    height: 45.4545px;
+    padding: 12px 35px;
+    text-align: center;
+    background-color:#7ecbc0;
+    list-style-type: none;
+}
+.paper {
+    height: 1307.36px;
+    width: 800px;
+    padding: 40px 20px 20px 20px;
+    background-color: white;
+   margin-right: 10px;
+   /* margin-top: 30px; */
+}
+.nav {
+    height: 344px;
+    width: 56px;
+    padding-left: 10px;
+    background-color: cornflowerblue;
+    /* margin-top: 30px; */
+}
