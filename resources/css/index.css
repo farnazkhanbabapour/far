@@ -8,10 +8,42 @@ body{
      background-attachment: fixed;
      
 }
+.head{ 
+    margin-left: 490px;
+    width:1010px;
+    color: black;
+}
+.crt{
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.barbtn{
+    float: right;
+    height: 70px;
+    width: 70px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 50%;
+    
+    
+   
+}
+.lg{
+  transform: translate(25px,25px);
+}
 .main{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+}
+.dev{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.logo{
+    font-size: 26px;
 }
 .card {
     height: 369.011px;
