@@ -1,8 +1,12 @@
+*{
+    font-family: 'Quicksand';
+}
 body{
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
      background-attachment: fixed;
+     
 }
 .main{
     display: flex;
@@ -49,7 +53,10 @@ body{
     height: 129.45px;
     display: block;
     background-color: white;
-    padding: 20px;
+    padding: 20px;   
+}
+.trans{
+   transform: translate(50px,50px);
 }
 .btn {
     width: 193.114px;
@@ -57,7 +64,11 @@ body{
     padding: 12px 35px;
     text-align: center;
     background-color:#7ecbc0;
-    list-style-type: none;
+    border-radius: 35px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
 }
 .paper {
     height: 1307.36px;
@@ -70,7 +81,25 @@ body{
 .nav {
     height: 344px;
     width: 56px;
-    padding-left: 10px;
-    background-color: cornflowerblue;
-    /* margin-top: 30px; */
+    float: none;
+}
+ .nav li {
+    display: block;
+    font-size: 28px !important;
+    margin-left: 10px;
+    padding-bottom: 25px;
+}
+ .f{
+     padding-left: 11px;
+ }
+
+.photo{
+    width: 42px;
+    height: 42px;
+    padding-top: 15px;
+}
+
+.photo img{
+    width: 100%;
+    border-radius: 50%;
 }
