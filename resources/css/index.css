@@ -114,7 +114,7 @@ body{
     display: block;
     margin-bottom: 50px;
     margin-top: 10px;
-    font-family:Quicksand, sans-serif; ;
+    font-family:Quicksand, sans-serif; 
 }
 .padd{
     margin-bottom: 22px;
@@ -136,9 +136,94 @@ body{
     color: black;
     margin-bottom: 80px;
 }
+.erst{
+    border-bottom: 1px solid #bfbfbf;
+}
 .btnshare:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
 }
+.tleft{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    width: 40%;
+    margin-bottom: 80px;
+
+}
+.information{
+    font-size: 21.06px;
+    font-weight: 400;
+    margin-bottom: 33.9336;
+    color: rgb(117,117,117);
+    letter-spacing: 1.28px;
+}
+.info{
+    float: left;
+    font-size: 12.96px;
+    font-weight: 1200;
+    letter-spacing: 0.1296px;
+    line-height: 22.4px;
+    width: 100%;
+    
+}
+.dd{
+    margin-left: 112px;
+    margin-bottom: 8.1072px;
+    font-size: 14.4px;
+    font-weight: 300;
+    letter-spacing: 1.28px;
+    line-height: 22.4px;
+}
+.tri{
+   height: 40px;
+}
+.bullet , .bull{
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    line-height: 16.32px;
+}
+.bullet{
+    background-color:#7ecbc0 ;
+    border-color: #7ecbc0;
+}
+.bull{
+    border-color: #7ecbc0;
+}
+.tright{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+.languages{
+    font-size: 21.06px;
+    font-weight: 400;
+    margin-bottom: 33.9336;
+    color: rgb(117,117,117);
+    letter-spacing: 1.28px;
+    margin-left: 30px;
+}
+.tright li{
+    list-style-type: none;
+}
+.lan{
+    font-size: 13.6px;
+    font-weight: bolder;
+    margin-bottom: 0.7em;
+    letter-spacing: 1.28px;
+    line-height: 16.32px;
+}
+.ll{
+    margin-bottom: 22px;
+    line-height: 16.32px; 
+}
+
 .nav {
     height: 344px;
     width: 56px;
