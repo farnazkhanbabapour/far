@@ -148,7 +148,7 @@ body{
     padding-right: 15px;
     margin-top: 15px;
     width: 40%;
-    margin-bottom: 80px;
+    
 
 }
 .information{
@@ -175,9 +175,7 @@ body{
     letter-spacing: 1.28px;
     line-height: 22.4px;
 }
-.tri{
-   height: 40px;
-}
+
 .bullet , .bull{
     width: 15px;
     height:15px;
@@ -199,7 +197,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 15px;
-    margin-bottom: 80px;
+  
 }
 .languages{
     font-size: 21.06px;
@@ -223,6 +221,38 @@ body{
     margin-bottom: 22px;
     line-height: 16.32px; 
 }
+.line{
+    border-top: 1px solid #bfbfbf ;
+    clear: left;
+     
+}
+.lskills{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin-top: 15px; */
+    width: 40%;
+}
+
+ .sk{
+   
+    /* font-size: 12.96px; */
+    font-weight: bold;
+    letter-spacing: 0.1296px;
+    line-height: 22.4px;
+    width: 100%;
+    list-style-type: none;
+    margin-bottom: 30px;
+ 
+}
+.add{
+    font-size: 21.06px;
+    font-weight: 400;
+    margin-bottom: 150px;
+    color: rgb(117,117,117);
+    letter-spacing: 1.28px;
+}
+
 
 .nav {
     height: 344px;
