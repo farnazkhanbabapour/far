@@ -101,13 +101,14 @@ body{
     
 }
 .paper {
-    height: 1307.36px;
+    height: 1200px;
     width: 800px;
     padding: 40px 20px 20px 20px;
     background-color: white;
     margin-right: 10px;
    /* margin-top: 30px; */
    letter-spacing: 0.08em;
+   border: 1px solid #bfbfbf;
 }
 .hi{
     font-size: 30px;
@@ -233,6 +234,13 @@ body{
     /* margin-top: 15px; */
     width: 40%;
 }
+.rskills{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    
+}
 
  .sk{
    
@@ -243,16 +251,97 @@ body{
     width: 100%;
     list-style-type: none;
     margin-bottom: 30px;
+    /* margin-left: 20px; */
  
 }
-.add{
+.sko{
+    margin-left: 20px;
+    font-weight: bold;
+    letter-spacing: 0.1296px;
+    line-height: 22.4px;
+    width: 100%;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.perfessional{
     font-size: 21.06px;
     font-weight: 400;
-    margin-bottom: 150px;
+    margin-bottom: 33.9336;
     color: rgb(117,117,117);
     letter-spacing: 1.28px;
-}
+    
 
+}
+.add{
+    
+    font-size: 21.06px;
+    font-weight: 400;
+    margin-bottom: 130px;
+    color: rgb(117,117,117);
+    letter-spacing: 1.28px;
+    margin-left: 30px;
+}
+.st{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin-top: 15px; */
+    width: 40%;
+
+}
+.styled{
+    font-size: 21.06px;
+    font-weight: 400;
+    margin-bottom: 33.9336;
+    color: rgb(117,117,117);
+    letter-spacing: 1.28px;
+
+}
+.list {
+    list-style: none;
+   
+  
+  }
+  
+ .list p:before {
+    content: '✓';
+  }
+  .list p {   
+    /* font-size: 12.96px; */
+    font-weight: bolder;
+    letter-spacing: 0.1296px;
+    line-height: 22.4px;
+    width: 100%;
+    list-style-type: none;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+.sty{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.28px;
+    line-height: 17.6px;
+    margin-bottom: 18.56px;
+}
+.icon{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ico{
+    font-size: 21.06px;
+    font-weight: 400;
+    color: rgb(117,117,117);
+    letter-spacing: 1.28px;
+    margin-left: 30px;
+}
+.mu{
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-bottom: 6px;
+    padding-top: 5.6px;
+    padding-left: 40px;
+}
 
 .nav {
     height: 344px;
