@@ -369,7 +369,7 @@ body{
     border-radius: 50%;
 }
 .blatt{
-    height: 1500px;
+    height: 1550px;
     width: 800px;
     padding: 40px 20px 20px 20px;
     background-color: white;
@@ -401,29 +401,150 @@ body{
 }
 .fotos{
     clear: left;
+    
 }
-.fo{
+.p{
     float: left;
     width: 100%;
     /* margin-right: 15px; */
+    margin-left: 15px;
    
     
   
 }
-.fot{
+.h{
     float: right;
     width: 100%;
+    margin-right: 15px;
    
 }
- .foto{
+ .o{
      clear: right;
      float: left; 
      margin-top: 10px;
-     margin-right: 25px;
+    
+     margin-left: 15px;
 } 
-.f{
+.t{
+    margin-top: 10px;
+    float: right;
+    margin-right: 15px;
+}
+.m{
+    float: right;
+    margin-right: 15px;
     margin-top: 10px;
 }
-.foo{
-    float: right;
+.s{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.e{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.interes{
+    height: 210px;
+    width: 800px;
+    padding: 40px 20px 20px 20px;
+    background-color: white;
+    margin-left: 490px;
+    letter-spacing: 0.08em;
+    border: 1px solid #bfbfbf;
+    margin-top: 20px;
+}
+.int{
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    letter-spacing: 1.28px;
+
+}
+.inte{
+    color: #7ecbc0 !important;
+
+}
+.inter{
+    list-style-type: none;
+    line-height: 40px;
+    letter-spacing: 1.28px;
+}
+.inter li{
+    float: left;
+    width: 33.33%;
+}
+.contact{
+    height: 1550px;
+    width: 800px;
+    padding: 40px 20px 20px 20px;
+    background-color: white;
+    margin-left: 490px;
+    letter-spacing: 0.08em;
+    border: 1px solid #bfbfbf;
+    margin-top: 20px;
+ 
+}
+.con{
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    letter-spacing: 1.28px;
+    margin-top: 20px;
+    
+}
+.free{
+    clear: left;
+    margin-top: 45px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 1.28px;
+    margin-bottom: 22px;
+    margin-left: 38px;
+    margin-top: 80px;
+}
+.formuller{
+    margin-bottom: 20px;
+    letter-spacing: 1.28px;
+    line-height: 22.4px;
+    margin-left: 38px;
+}
+input{
+    display: block;
+    width: 100%;
+    width: 677.66px;
+    height: 20px;
+    padding: 10px 15px;
+    margin-bottom: 9px;
+    line-height: 20px;
+    background-color: rgb(243,243,243);
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+
+}
+.wpp{
+    display: block;
+    width: 100%;
+    width: 677.66px;
+    padding: 10px 15px;
+    margin-bottom: 9px;
+    line-height: 20px;
+    background-color: rgb(243,243,243);
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+
+}
+.send{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    padding: 8px 25px;
+    display: inline-block;
+    border-radius: 35px;
+    background-color:#7ecbc0; ;
 }
