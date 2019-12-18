@@ -368,3 +368,62 @@ body{
     width: 100%;
     border-radius: 50%;
 }
+.blatt{
+    height: 1500px;
+    width: 800px;
+    padding: 40px 20px 20px 20px;
+    background-color: white;
+    margin-left: 490px;
+    letter-spacing: 0.08em;
+    border: 1px solid #bfbfbf;
+    margin-top: 20px;
+   
+}
+.portfolio{
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    letter-spacing: 1.28px;
+}
+.pf{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.pf p{
+    float: left;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2.28px;
+    margin-left: 0px;
+    color:  rgb(117,117,117);
+    cursor: pointer;
+}
+.fotos{
+    clear: left;
+}
+.fo{
+    float: left;
+    width: 100%;
+    /* margin-right: 15px; */
+   
+    
+  
+}
+.fot{
+    float: right;
+    width: 100%;
+   
+}
+ .foto{
+     clear: right;
+     float: left; 
+     margin-top: 10px;
+     margin-right: 25px;
+} 
+.f{
+    margin-top: 10px;
+}
+.foo{
+    float: right;
+}
