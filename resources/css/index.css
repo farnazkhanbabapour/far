@@ -414,6 +414,9 @@ body{
     clear: left;
     
 }
+.fotosmin{
+    display: none;
+}
 .p{
     float: left;
     width: 100%;
@@ -920,7 +923,7 @@ input{
         font-size: 20px;
         overflow: hidden;
         font-weight: bold;
-        letter-spacing: 3px;
+        letter-spacing: 5px;
         line-height: 17.6px;
         margin-bottom: 18.56px;
     }
@@ -937,12 +940,13 @@ input{
         /* margin-left: 30px; */
     }
     .mu{
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 15px;
-        padding-bottom: 20px;
-        padding-top: 3px;
+        padding-bottom: 6px;
+        padding-top: 5.6px;
+        letter-spacing:2px;
+        line-height: 17.6px;
         padding-left: 40px;
-        letter-spacing: 3px;
     }
     
     .nav {
@@ -970,22 +974,14 @@ input{
         width: 100%;
         border-radius: 50%;
     }
-    .blatt{
-        height: 1550px;
-        width: 800px;
-        padding: 40px 20px 20px 20px;
-        background-color: white;
-        margin-left: 490px;
-        letter-spacing: 0.08em;
-        border: 1px solid #bfbfbf;
-        margin-top: 20px;
-       
-    }
     .portfolio{
-        font-size: 30px;
-        margin-bottom: 40px;
+        font-size: 38px;
+        margin-bottom: 20px;
         font-weight: 700;
         letter-spacing: 1.28px;
+        margin-top:80px;
+        padding: 40px 20px 20px 20px;
+        
     }
     .pf{
         list-style-type: none;
@@ -1002,64 +998,61 @@ input{
         cursor: pointer;
     }
     .fotos{
-        clear: left;
-        
+        display: none;
     }
     .p{
-        float: left;
+        /* float: left; */
         width: 100%;
         /* margin-right: 15px; */
         margin-left: 15px;
+        text-align: center;
        
         
       
     }
     .h{
-        float: right;
+        /* float: right; */
         width: 100%;
-        margin-right: 15px;
+        /* margin-right: 15px; */
        
     }
      .o{
-         clear: right;
-         float: left; 
+         /* clear: right; */
+         /* float: left;  */
          margin-top: 10px;
-        
-         margin-left: 15px;
+         width: 100%;
+         /* margin-left: 15px; */
     } 
     .t{
         margin-top: 10px;
-        float: right;
-        margin-right: 15px;
+        /* float: right;
+        margin-right: 15px; */
+        width: 100%;
     }
     .m{
-        float: right;
-        margin-right: 15px;
+        /* float: right;
+        margin-right: 15px; */
         margin-top: 10px;
+        width: 100%;
     }
     .s{
-        margin-left: 15px;
+        /* margin-left: 15px; */
         margin-top: 10px;
+        width: 100%;
     }
     .e{
         margin-top: 10px;
-        margin-left: 15px;
+        /* margin-left: 15px; */
+        width: 100%;
     }
-    .interes{
-        height: 210px;
-        width: 800px;
-        padding: 40px 20px 20px 20px;
-        background-color: white;
-        margin-left: 490px;
-        letter-spacing: 0.08em;
-        border: 1px solid #bfbfbf;
-        margin-top: 20px;
-    }
+    
     .int{
-        font-size: 30px;
+        font-size: 40px;
         margin-bottom: 40px;
         font-weight: 700;
         letter-spacing: 1.28px;
+        margin-top: 50px; 
+        padding: 40px 20px 20px 20px;
     
     }
     .inte{
@@ -1072,26 +1065,17 @@ input{
         letter-spacing: 1.28px;
     }
     .inter li{
-        float: left;
-        width: 33.33%;
-    }
-    .contact{
-        height: 1550px;
-        width: 800px;
-        padding: 40px 20px 20px 20px;
-        background-color: white;
-        margin-left: 490px;
-        letter-spacing: 0.08em;
-        border: 1px solid #bfbfbf;
-        margin-top: 20px;
-     
+        /* float: left; */
+         widows: 100px;
+         float: none;
     }
     .con{
-        font-size: 30px;
+        font-size: 35px;
         margin-bottom: 40px;
         font-weight: 700;
         letter-spacing: 1.28px;
         margin-top: 20px;
+        padding: 40px 20px 20px 20px;
         
     }
     .free{
@@ -1102,14 +1086,17 @@ input{
         line-height: 22px;
         letter-spacing: 1.28px;
         margin-bottom: 22px;
-        margin-left: 38px;
+        /* margin-left: 38px; */
         margin-top: 80px;
+        padding: 40px 20px 20px 20px;
     }
     .formuller{
         margin-bottom: 20px;
         letter-spacing: 1.28px;
         line-height: 22.4px;
-        margin-left: 38px;
+        /* margin-left: 38px; */
+        width: 98%;
+        margin-left: 5px;
     }
     input{
         display: block;
@@ -1124,6 +1111,7 @@ input{
         font-weight: 400;
         font-size: 14px;
         font-style: normal;
+        
     
     }
     .wpp{
@@ -1150,5 +1138,6 @@ input{
         border-radius: 35px;
         background-color:#7ecbc0; ;
     }
+  
     
 }
